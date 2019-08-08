@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+<!-- <div class="region"> -->
+<html>
+<!-- <img src="static/css/center1.jpeg", width="1000", height="700"> -->
+<!-- <link rel="stylesheet" type="text/css" href= "{% static 'css/home_style.css' %}"> -->
+
+  <ul>
+  {% for team_names in Team %}
+    <li>
+      {{ team_names }}
+      </li>
+
+  {% endfor %}
+  </ul>
+
+</html>
+<!-- </div> -->
+{% endblock %}

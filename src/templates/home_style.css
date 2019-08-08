@@ -1,0 +1,174 @@
+.html {
+  height: 100%;
+  width: 100%;
+}
+
+.welcome {
+  /* background-color: #030b1b;
+  color: #071157;
+
+  text-decoration-style: wavy; */
+  background-image: url("./field1.jpg");
+  text-align: center;
+  position: relative;
+  /* text-shadow: 2px 2px #d5cfc5; */
+}
+
+.textWel {
+  font-size: 35px;
+  width: 400px;
+  background-color: #97eea6;
+  text-align: right;
+  display: inline-block;
+  padding: 5px 0 0 0;
+}
+
+ .homeImages {
+  width: 1000px;
+  height: 1200px;
+}
+
+.myLogo {
+  width: 20;
+  /* height: 10; */
+  float: left;
+  position: relative;
+  padding: 5px 0 0 0;
+}
+
+.transfer {
+    font-size: 20px;
+    background-color: #ed3e3e;
+    width: 40;
+    text-align: left;
+    display: inline-block;
+    margin-top: 65px;
+    margin-right: 0px;
+    float: left;
+}
+
+.navigation {
+}
+
+.navigation ul {
+  background-color: #090103;
+}
+
+.navigation li {
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  display: inline;
+  text-align: justify;
+  margin-right: 40px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 15px;
+   margin-right: -55px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.fac {
+  padding: 10px;
+  font-size: 20px;
+  width: 0;
+  font-style: italic;
+  text-align: left;
+}
+
+.fa-facebook {
+  background: #4384e4;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.navigation a{
+      color: #f0e0e0;
+}
+
+.slider figure {
+  position: relative;
+  height: 700;
+  width: 700;
+  animation: 1s slidy 10s;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+ -moz-box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider figure img {
+  width: 40%;
+}
+
+ @-webkit-keyframes slidy {
+    0% { left:100%; width: 100%; }
+    5% { left:0%; }
+    25% { left: 0%; }
+    30% { left: -100%; width: 100%; }
+    30.0001% { left: -100%; width: 0%;  }
+    100% { left: 100%; width: 0%;}
+}
+
+.footerVal {
+  background-color: #728ee2;
+  width: 1400px;
+  padding: 5px;
+  font-size: 15px;
+}
+/*
+.header h1 {
+  position: relative;
+  top: 1px;
+  left: 10px;
+}
+
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes textWel {
+  from {background-color: #a1e76e;}
+  to {background-color: yellow;}
+}
+
+
+
+.region{
+  color: red;
+  text-align:justify;
+  background-image: url("center1.jpeg");
+}
+
+
+
+
+
+
+
+ */

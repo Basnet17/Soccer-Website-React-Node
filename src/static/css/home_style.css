@@ -1,0 +1,185 @@
+.html {
+  height: 100%;
+}
+.body {
+  min-height: 100%;
+}
+
+.welcome {
+    background-color: #030b1b;
+    color: #071157;
+    text-align: center;
+    background-image: url("field1.jpg");
+    text-decoration-style: wavy;
+    text-shadow: 2px 2px #d5cfc5;
+}
+
+.header img {
+  float: left;
+  width: 10px;
+  height: 10px;
+  /* background: #555; */
+}
+
+.header h1 {
+  position: relative;
+  top: 1px;
+  left: 10px;
+}
+
+.myLogo-img {
+  width: 200;
+  height: 200;
+  float: left;
+  position: relative;
+  /* margin: 10px 15px 15px 10px; */
+  /* margin: 100px; */
+}
+
+.footerVal {
+  background-color: #728ee2;
+  /* color: #e69d82; */
+  width: 1400px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes textWel {
+  from {background-color: #a1e76e;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+.textWel {
+  font-size: 35px;
+  width: 400px;
+  background-color: #97eea6;
+  animation-name: textWel;
+  animation-duration: 50s;
+  text-align: center;
+  display: inline-block;
+  padding: 60px 0 0 0:
+  /* margin-right: 100px; */
+  /* background-image: url("logo1.png"); */
+  /* background-image: url("logo1.png"); */
+}
+
+/* .h1 {
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+
+.region{
+  color: red;
+  text-align:justify;
+  background-image: url("center1.jpeg");
+}
+
+.navigation {
+   /* background-color: #813e42; */
+  /* color: #110106; */
+  /* text-decoration-style: wavy; */
+}
+
+.navigation ul {
+  background-color: #090103;
+}
+
+.navigation li {
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  display: inline;
+  /* font-style:oblique; */
+  text-align: justify;
+  /* text-decoration-color: #e2e4e9; */
+  margin-right: 40px;
+}
+
+.navigation a{
+     /* color: #f0e0e0; */
+}
+
+.slider figure {
+  position: relative;
+  /* display: flow-root; */
+  height: 700;
+  width: 500;
+  animation: 1s slidy 10s;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+ -moz-box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    /* display: run-in; */
+}
+
+.slider figure img {
+  width: 40%;
+}
+
+ @-webkit-keyframes slidy {
+    0% { left:100%; width: 100%; }
+    5% { left:0%; }
+    25% { left: 0%; }
+    30% { left: -100%; width: 100%; }
+    30.0001% { left: -100%; width: 0%;  }
+    100% { left: 100%; width: 0%;}
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 15px;
+   margin-right: -55px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.fac {
+  padding: 10px;
+  font-size: 20px;
+  width: 0;
+  font-style: italic;
+  text-align: left;
+}
+
+/* Add a hover effect if you want */
+/* .fa:hover {
+  opacity: 0.7;
+} */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #4384e4;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}

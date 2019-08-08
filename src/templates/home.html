@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block content %}
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href= "{% static 'css/home_style.css' %}">
+  <!-- <img src="/media/picture1.jpg", width="500", height="700"> -->
+  <div class="slider">
+    <figure>
+    <img src="static/css/picture1.jpg", width="500", height="700">
+    <img src="static/css/field2.jpeg", width="500", height="700">
+    <img src="static/css/field3.jpeg", width="500", height="700">
+    <img src="static/css/field4.jpg", width="500", height="700">
+    <!-- <div class = "slide"><p>Slide  1</p></div>
+    <div class= "slide"><p>Slide  2</p></div>
+    <div class= "slide"><p>Slide  3</p></div>
+    <div class="slide"><p>Slide  4</p></div> -->
+    </figure>
+  </div>
+</head>
+<footer>
+  <div class="footerVal">
+      Copyright information: This website belongs to Pritam Basnet and any unauthorized content published won't be entertained.
+  </div>
+</footer>
+</html>
+{% endblock content %}

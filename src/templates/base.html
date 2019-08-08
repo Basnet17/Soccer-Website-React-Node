@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href= "{% static 'css/home_style.css' %}">
+<div class="welcome">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title> Ultimate Soccer website.</title>
+  </head>
+  <body>
+    <div class= "textWel">
+      Welcome to soccer rocks!
+    </div>
+    <img class= "myLogo-img" src="static/css/logo3.png", width="120", height="100">
+    {% include 'navbar.html' %}
+
+    {% block content %}
+
+    {% endblock content %}
+
+  </body>
+</html>
+</div>
